@@ -15,10 +15,28 @@
     }
 
     h2 {
+      position: relative;
       font-size: 20px;
       margin: 24px 0 10px 0;
       border-bottom: 1px solid #999;
       padding-bottom: 4px;
+      overflow: hidden;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: #007bff;
+      transition: all 0.8s ease-in-out;
+    }
+
+    h2:hover::after {
+      width: 100%;
+      background-color: #dc3545;
     }
 
     .info-line {
@@ -32,6 +50,7 @@
 
     li {
       margin: 8px 0;
+      transition: all 0.3s ease-in-out;
     }
   </style>
 </head>
@@ -42,7 +61,7 @@
   <div class="info-line">男 | 20岁 | 3013663073@qq.com</div>
 
   <h2>教育经历</h2>
-  <div>广州南洋理工职业学院| 软件技术| 专科</div>
+  <div>广州南洋理工职业学院 | 软件技术 | 专科</div>
   <div>2023.09 - 2026.06</div>
   <ul>
     <li>主修HTML制作､CSS样式设计､JavaScript基础､Web前端开发､响应式布局､前端框架开发､软件测试实战 等核心课程,搭建完整前端开发知识体系｡</li>
