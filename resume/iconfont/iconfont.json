@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1126",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "f00c5",
+      "unicode_decimal": 983237
+    },
+    {
+      "icon_id": "705682",
+      "name": "拼图",
+      "font_class": "pintu",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "2880581",
+      "name": "引号",
+      "font_class": "yinhao-right",
+      "unicode": "e50d",
+      "unicode_decimal": 58637
+    },
+    {
+      "icon_id": "15093736",
+      "name": "学士帽",
+      "font_class": "xueshimao",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "28984341",
+      "name": "iconfont_biaohui",
+      "font_class": "iconfont_biaohui",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    }
+  ]
+}
